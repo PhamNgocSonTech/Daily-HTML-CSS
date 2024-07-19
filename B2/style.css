@@ -1,0 +1,47 @@
+ /* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+    color: #2E294E;
+    font-family: Helvetica,sans-serif;
+    font-size: 14px;
+  }
+
+.offer {
+    width: 100%;
+    background: url(https://plus.unsplash.com/premium_photo-1670509045675-af9f249b1bbe?q=80&w=2035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat left top;
+    color: #2E294E;
+    text-align: center;
+    padding: 80px 0 60px;
+}
+
+.offer h2 {
+    margin-bottom: 30px;
+    font-weight: 500
+}
+
+.offer .info {
+    margin-bottom: 30px
+}
+
+.offer .btn-download a {
+    color: #2E294E;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px solid #C5E99B;
+    background-color: #F68657;
+    padding: 14px 16px;
+    font-size: 16px;
+    transition: 0.3s all;
+
+}
+
+.offer .btn-download a:hover { 
+    opacity: 0.8;
+}
