@@ -14,7 +14,11 @@
 
 .offer {
     width: 100%;
-    background: url(https://plus.unsplash.com/premium_photo-1670509045675-af9f249b1bbe?q=80&w=2035&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat left top;
+    height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/015/640/533/original/digital-voucher-on-smartphone-screen-concept-illustration-flat-design-eps10-graphic-element-for-infographic-landing-page-empty-state-app-or-web-ui-icon-vector.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: top;
     color: #2E294E;
     text-align: center;
     padding: 80px 0 60px;
