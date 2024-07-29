@@ -1,0 +1,71 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  color: #CE6D39;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.examples {
+  margin: 30px auto;
+  width: 940px;
+}
+
+.examples h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.examples h2 span {
+    background-color: #fff;
+    padding: 0 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.examples h2::after {
+    content: "";
+    background-color: #e2e2e2;
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    top: 20px;
+}
+
+.examples-list li {
+    width: 215px;
+    float: left;
+    margin-right: 26px;
+}
+
+.examples-list li img {
+    border-radius: 4px;
+}
+
+.examples .examples-list li:nth-child(4n) {
+    margin-right: 0;
+}
+
+
